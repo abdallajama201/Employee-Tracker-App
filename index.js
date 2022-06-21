@@ -54,7 +54,8 @@ function initialQuesLoop() {
                     break;
             }
         }).then(() => {
-            // reset();
+            console.log("hitting");
+            reset();
         });
 }
 function reset() {
